@@ -23,8 +23,9 @@ class DataProviderTest {
 
     @Test
     void shouldContainHeroesWithTheSameNameButDifferentClass() {
-        assertTrue(underTest.getHeroesSet().contains(TEST_HERO_STYG_BEST));
         assertTrue(underTest.getHeroesSet().contains(TEST_HERO_STYG_WITCH));
+        assertTrue(underTest.getHeroesSet().contains(TEST_HERO_STYG_BEST));
+
     }
 
     @Test
